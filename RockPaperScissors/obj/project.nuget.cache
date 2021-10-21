@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z28JnznMJYZ7SIB4jpshQWYSzowZu9MQkw1mA+wa6sY7KTjIPJeb9sbxi6rwdYWAwSYxCCKVq6sAm53wAbunSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ego\\repos\\RockPaperScissors\\RockPaperScissors\\RockPaperScissors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ego\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.20\\microsoft.netcore.app.host.win-x64.3.1.20.nupkg.sha512"
+  ],
+  "logs": []
+}
