@@ -14,7 +14,7 @@ namespace RockPaperScissors
                 while (playerScore < 3 && computerScore < 3)
                 {
 
-                    Console.WriteLine("Choose rock, paper or scissors");
+                    Console.WriteLine("Choose rock, paper or scissors:");
                     string userInput = Console.ReadLine();
                     Random random = new Random();
                     int randomNumber = random.Next(0, 4);
@@ -26,29 +26,29 @@ namespace RockPaperScissors
 
                         case 1:
                             computerInput = "rock";
-                            Console.WriteLine("Computer chooses rock");
+                            Console.WriteLine("Computer chooses rock!");
                             if (userInput == "rock")
                             {
-                                Console.WriteLine("Draw");
+                                Console.WriteLine("draw");
                             }
                             else if (userInput == "paper")
                             {
-                                Console.WriteLine("paper beats rock");
+                                Console.WriteLine("paper beats rock!");
                                 playerScore++;
                             }
                             else if (userInput == "scissors")
                             {
-                                Console.WriteLine("rock beats scissors");
+                                Console.WriteLine("rock beats scissors!");
                                 computerScore++;
                             }
 
                             break;
                         case 2:
                             computerInput = "paper";
-                            Console.WriteLine("Computer chooses paper");
+                            Console.WriteLine("Computer chooses paper!");
                             if (userInput == "rock")
                             {
-                                Console.WriteLine("paper beats rock");
+                                Console.WriteLine("paper beats rock!");
                                 computerScore++;
                             }
                             else if (userInput == "paper")
@@ -57,26 +57,26 @@ namespace RockPaperScissors
                             }
                             else if (userInput == "scissors")
                             {
-                                Console.WriteLine("scissors beat paper");
+                                Console.WriteLine("scissors beats paper!");
                                 playerScore++;
                             }
                             break;
                         case 3:
                             computerInput = "scissors";
-                            Console.WriteLine("computer chooses scissors");
+                            Console.WriteLine("Computer chooses scissors!");
                             if (userInput == "rock")
                             {
-                                Console.WriteLine("rock beats scissors");
+                                Console.WriteLine("rock beats scissors!");
                                 playerScore++;
                             }
                             else if (userInput == "paper")
                             {
-                                Console.WriteLine("scissors beats papers");
+                                Console.WriteLine("scissors beats paper!");
                                 computerScore++;
                             }
                             else if (userInput == "scissors")
                             {
-                                Console.WriteLine("Draw");
+                                Console.WriteLine("draw");
                             }
                             break;
                         default:
